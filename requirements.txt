@@ -1,0 +1,9 @@
+pandas
+jupyter
+xlrd
+seaborn
+scikit-learn
+openpyxl
+tensorflow
+tensorflow-hub
+django
