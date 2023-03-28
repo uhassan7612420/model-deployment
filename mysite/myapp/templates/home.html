@@ -11,11 +11,34 @@
 
 </head>
 <body>
+
     <form class='container' method="post" action="{% url 'index' %}" enctype="multipart/form-data">
-        <label for="formFile" class="form-label">Default file input example</label>
+        <p> upload your feature file </p> 
+        <p> the file should be in xls format </p>
+                <!-- <p>
+            including columns                                                                                   <br>
+                                                                                                                <br>
+            'No_1_Angle_Deviation' ,'No_2_Angle_Deviation' ,'No_3_Angle_Deviation' ,'No_4_Angle_Deviation',     <br>
+            'No_5_Angle_Deviation' ,'No_6_Angle_Deviation' ,'No_7_Angle_Deviation' ,'No_8_Angle_Deviation',     <br>
+            'No_9_Angle_Deviation' ,                                                                            <br>
+                                                                                                                <br>
+            'No_10_Angle_Deviation','No_11_Angle_Deviation','No_12_Angle_Deviation','No_13_Angle_Deviation',    <br>
+                                                                                                                <br>
+            'No_1_NASM_Deviation'  ,'No_2_NASM_Deviation'  ,'No_3_NASM_Deviation'  ,'No_4_NASM_Deviation',      <br>
+            'No_5_NASM_Deviation'  ,'No_6_NASM_Deviation'  ,'No_7_NASM_Deviation'  ,'No_8_NASM_Deviation',      <br>
+            'No_9_NASM_Deviation'  ,                                                                            <br>
+                                                                                                                <br>
+            'No_10_NASM_Deviation' ,'No_11_NASM_Deviation' ,'No_12_NASM_Deviation' ,'No_13_NASM_Deviation' ,    <br>
+            'No_14_NASM_Deviation' ,'No_15_NASM_Deviation' ,'No_16_NASM_Deviation' ,'No_17_NASM_Deviation' ,    <br>
+            'No_18_NASM_Deviation' ,'No_19_NASM_Deviation' ,'No_20_NASM_Deviation' ,'No_21_NASM_Deviation' ,    <br>
+            'No_22_NASM_Deviation' ,'No_23_NASM_Deviation' ,'No_24_NASM_Deviation' ,'No_25_NASM_Deviation' ,    <br>
+                                                                                                                <br>
+            'No_1_Time_Deviation'  ,'No_2_Time_Deviation',                                                      <br>
+        </p> -->
+        <!-- <label for="formFile" class="form-label">Default file input example</label> -->
         <div class="input-group mb-3">
             <input class="form-control" type="file" id="formFile" name="file">
-            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Button</button>
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">upload file</button>
         </div>
     </form>
 </body>
