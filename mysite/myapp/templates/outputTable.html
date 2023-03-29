@@ -1,0 +1,23 @@
+{% block outputTable %}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+
+            <th scope="col">Predicted  score</th>
+            <th scope="col">Predicted Weakest Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if outputTable %}
+        {% for index,row in outputTable.items %}
+        <tr>
+            <th scope="row">{{index}}</th>
+            <td>{{row.predictedScore}}</td>
+            <td>{{row.predictedWeakestLink}}</td>
+        </tr>
+        {% endfor %}
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}
